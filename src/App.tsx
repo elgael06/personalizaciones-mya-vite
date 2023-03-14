@@ -1,12 +1,17 @@
-import './styles/App.css'
+import GallerySection from './components/gallery-section'
+import SeccionHero from './components/hero-section'
+import ServiceSection from './components/services-section'
 import './configs/firebase'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Personalizaciónes mya.</h1>
-      <h2>En proceso! </h2>
-    </div>
+    <>
+      <SeccionHero />
+      <main id="main" data-aos="fade" data-aos-delay="1500">
+        <GallerySection />
+        <ServiceSection />
+       </main>
+      </>
   )
 }
 
