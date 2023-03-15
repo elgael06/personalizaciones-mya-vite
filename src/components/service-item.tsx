@@ -10,7 +10,7 @@ const ServiceItem = ({ services }: IServiceItemProp) => {
             services.map(({id, name, description, icon}) => (<div key={id} className="col-xl-3 col-md-6 d-flex">
             <div className="service-item position-relative">
               <i className={`${icon}`}></i>
-              <h4><a href="" className="stretched-link">{name}</a></h4>
+              <h4 title={name}>{name}</h4>
                 <p>{description}</p>
             </div>
           </div>))
