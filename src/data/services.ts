@@ -58,9 +58,9 @@ import { IServiceItem } from "../interfaces/IServiceItem.interface";
       price: 40
     },
     {
-      id: 'collar_mascota',
-      name: 'collar mascota',
-      description: 'Lindos collares personalizados para tu mascota.',
+      id: 'placa_mascota',
+      name: 'placa mascota',
+      description: 'Lindas pacas personalizados para tu mascota.',
       icon: 'bi bi-tencent-qq',
       price: 70
     },
