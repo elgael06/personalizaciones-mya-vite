@@ -10,7 +10,6 @@ const SeccionHero = () => {
           <div className="col-lg-6 text-center">
             <h2>Bien venido a <span>Personalizaciónes MYA</span> el lugar donde le damos forma a sus sueños</h2>
             <p>Especializados en sublimacion y diseño.</p>
-            <a href="contact.html" className="btn-get-started">Contactenos aquí</a>
           </div>
         </div>
       </div>
