@@ -3,6 +3,9 @@ import GalleryItem from "./gallery-item"
 const GallerySection = () => {
   return (
     <section id="gallery" className="gallery">
+      <div className="col-lg-6 text-center">
+        <h2></h2>
+      </div>
       <div className="container-fluid">
         <div className="row gy-4 justify-content-center">
           {[

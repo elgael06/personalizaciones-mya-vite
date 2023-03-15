@@ -2,7 +2,7 @@ import { IServiceItemProp } from "../interfaces/IServiceItem.interface"
 
 const ServiceItem = ({ services }: IServiceItemProp) => {
   return (
-    <section id="services" className="services">
+    <section className="services">
       <div className="container">
         <div className="row gy-4">
           {/* items */}
